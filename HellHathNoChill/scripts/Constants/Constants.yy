@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Constants",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Constants",
+  "parent":{
+    "name":"HellHathNoChill",
+    "path":"HellHathNoChill.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
