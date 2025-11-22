@@ -6,8 +6,8 @@
   "name":"Object1",
   "overriddenProperties":[],
   "parent":{
-    "name":"HellHathNoChill",
-    "path":"HellHathNoChill.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
