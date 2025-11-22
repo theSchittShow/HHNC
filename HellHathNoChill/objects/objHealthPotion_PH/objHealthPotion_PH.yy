@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objChest",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objHealthPotion_PH",
+  "eventList":[],
   "managed":true,
-  "name":"objChest",
+  "name":"objHealthPotion_PH",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprHealthPotion_PH",
+    "path":"sprites/sprHealthPotion_PH/sprHealthPotion_PH.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

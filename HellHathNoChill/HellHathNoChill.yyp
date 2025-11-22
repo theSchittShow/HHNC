@@ -25,9 +25,11 @@
   "resources":[
     {"id":{"name":"objChest","path":"objects/objChest/objChest.yy",},},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
+    {"id":{"name":"objHealthPotion_PH","path":"objects/objHealthPotion_PH/objHealthPotion_PH.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sprChestClosed_PH","path":"sprites/sprChestClosed_PH/sprChestClosed_PH.yy",},},
     {"id":{"name":"sprChestOpen_PH","path":"sprites/sprChestOpen_PH/sprChestOpen_PH.yy",},},
+    {"id":{"name":"sprHealthPotion_PH","path":"sprites/sprHealthPotion_PH/sprHealthPotion_PH.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
