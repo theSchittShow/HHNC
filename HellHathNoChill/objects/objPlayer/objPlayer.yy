@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprPlayerDown_PH",
-    "path":"sprites/sprPlayerDown_PH/sprPlayerDown_PH.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

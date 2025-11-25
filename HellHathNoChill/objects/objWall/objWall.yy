@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objChest",
+  "%Name":"objWall",
   "eventList":[],
   "managed":true,
-  "name":"objChest",
+  "name":"objWall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprChestClosed_PH",
-    "path":"sprites/sprChestClosed_PH/sprChestClosed_PH.yy",
+    "name":"sprWall",
+    "path":"sprites/sprWall/sprWall.yy",
   },
   "spriteMaskId":null,
   "visible":true,
