@@ -34,6 +34,7 @@
     {"id":{"name":"sprPlayerDownRight","path":"sprites/sprPlayerDownRight/sprPlayerDownRight.yy",},},
     {"id":{"name":"sprPlayerLeft","path":"sprites/sprPlayerLeft/sprPlayerLeft.yy",},},
     {"id":{"name":"sprPlayerRight","path":"sprites/sprPlayerRight/sprPlayerRight.yy",},},
+    {"id":{"name":"sprPlayerRollUp","path":"sprites/sprPlayerRollUp/sprPlayerRollUp.yy",},},
     {"id":{"name":"sprPlayerUp","path":"sprites/sprPlayerUp/sprPlayerUp.yy",},},
     {"id":{"name":"sprPlayerUpLeft","path":"sprites/sprPlayerUpLeft/sprPlayerUpLeft.yy",},},
     {"id":{"name":"sprPlayerUpRight","path":"sprites/sprPlayerUpRight/sprPlayerUpRight.yy",},},
