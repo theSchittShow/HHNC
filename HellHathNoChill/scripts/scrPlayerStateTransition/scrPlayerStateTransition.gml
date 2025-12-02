@@ -11,7 +11,7 @@ function scrPlayerStateTransition(){
 		state = PlayerState.moving
 		image_speed = 1
 	
-	} else if (x_speed == 0 and y_speed == 0) and !dodge and !attack{
+	} else if (x_speed == 0 and y_speed == 0) and !dodge{
 		state = PlayerState.idle
 		sprite_index = sprArray_PlayerMv[dir]
 		image_index = 0

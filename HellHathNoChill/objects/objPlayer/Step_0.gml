@@ -3,7 +3,7 @@ x_speed = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 y_speed = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 sprint = keyboard_check(vk_shift)
 dodge = keyboard_check(ord("C"))
-attack = keyboard_check(ord("F"))
+
 
 //Set direction and nomralize speed
 if (x_speed != 0 || y_speed != 0){

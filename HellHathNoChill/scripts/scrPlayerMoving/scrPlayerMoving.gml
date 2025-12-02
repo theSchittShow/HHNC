@@ -8,6 +8,5 @@ function scrPlayerMoving(){
 		x += move_x * move_speed
 		y += move_y * move_speed
 	}
-	
 	scrPlayerStateTransition()
 }
