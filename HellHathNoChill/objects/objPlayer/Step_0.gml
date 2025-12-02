@@ -1,20 +1,29 @@
-right_key = keyboard_check(ord("D"))
-left_key = keyboard_check(ord("A"))
-down_key = keyboard_check(ord("S"))
-up_key = keyboard_check(ord("W"))
+//Input Detections
+x_speed = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+y_speed = keyboard_check(ord("S")) - keyboard_check(ord("W"))
+sprint = keyboard_check(vk_shift)
+dodge = keyboard_check(ord("C"))
 
 
-x_speed = (right_key - left_key) * move_speed
-y_speed = (down_key - up_key) * move_speed
+//Set direction and nomralize speed
+if (x_speed != 0 || y_speed != 0){
+	dir = point_direction(0, 0, x_speed, y_speed)
+}
+move_x = lengthdir_x(move_speed, dir)
+move_y = lengthdir_y(move_speed, dir)
+if place_meeting(x + move_x, y, objWall){move_x = 0}
+if place_meeting(x, y + move_y, objWall){move_y = 0}
 
-x += x_speed
-y += y_speed
+//State Assignment
+switch(state){
+	case PlayerState.dodging:	scrPlayerDodging(); break;
+	case PlayerState.moving:	scrPlayerMoving(); break;
+	case PlayerState.idle:		scPlayerIdle(); break;
+}
 
-
-if (x_speed > 0) {facing = RIGHT}
-if (x_speed < 0) {facing = LEFT}
-
-if (y_speed > 0) {facing = UP}
-if (y_speed < 0) {facing = DOWN}
-
-sprite_index = sprites[facing]
+	
+// Regin Triggers and abilitie
+if stamina_current < stamina_max and !sprint and state != PlayerState.dodging{
+	stamina_current += .05
+}
+show_debug_message(string(state) + " " + sprite_get_name(sprite_index) + " " + string(dodge))
