@@ -7,6 +7,12 @@ function scrPlayerStateTransition(){
 		image_index = 0
 		image_speed = 1
 		
+	}else if stamina_current > 3 and attack and state != PlayerState.attacking{
+		state = PlayerState.attacking
+		stamina_current -= 3
+		image_index = 0
+		image_speed = 1
+	
 	} else if (x_speed != 0 or y_speed != 0) {
 		state = PlayerState.moving
 		image_speed = 1
