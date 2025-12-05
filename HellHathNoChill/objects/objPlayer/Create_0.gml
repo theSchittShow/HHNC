@@ -4,6 +4,7 @@ enum PlayerState {
 	dodging,
 	attacking
 }
+depth = -1
 
 //Movement Values
 x_speed = 0

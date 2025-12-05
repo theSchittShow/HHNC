@@ -10,10 +10,10 @@ attack = mouse_check_button_pressed(mb_left)
 if (x_speed != 0 || y_speed != 0){
 	dir = point_direction(0, 0, x_speed, y_speed)
 }
-move_x = lengthdir_x(move_speed, dir)
-move_y = lengthdir_y(move_speed, dir)
-if place_meeting(x + move_x, y, objWall){move_x = 0}
-if place_meeting(x, y + move_y, objWall){move_y = 0}
+//move_x = lengthdir_x(move_speed, dir)
+//move_y = lengthdir_y(move_speed, dir)
+//if place_meeting(x + move_x, y, objWall){move_x = 0}
+//if place_meeting(x, y + move_y, objWall){move_y = 0}
 
 //State Assignment
 switch(state){
@@ -22,9 +22,8 @@ switch(state){
 	case PlayerState.idle:		scPlayerIdle(); break;
 	case PlayerState.attacking:	scrPlayerAttacking(); break;
 }
-
 	
-// Regin Triggers and abilitie
+// Regin Triggers
 if stamina_current < stamina_max and !sprint and state != PlayerState.dodging{
 	stamina_current += .05
 }

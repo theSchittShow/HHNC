@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"HellHathNoChill",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -17,6 +17,8 @@
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Scripts/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Attacks","folderPath":"folders/Sprites/Attacks.yy","name":"Attacks","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Environment","folderPath":"folders/Sprites/Environment.yy","name":"Environment","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Hud","folderPath":"folders/Sprites/Hud.yy","name":"Hud","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -41,8 +43,6 @@
     {"id":{"name":"sprAttackUpRight","path":"sprites/sprAttackUpRight/sprAttackUpRight.yy",},},
     {"id":{"name":"sprBarBg","path":"sprites/sprBarBg/sprBarBg.yy",},},
     {"id":{"name":"sprBrdr","path":"sprites/sprBrdr/sprBrdr.yy",},},
-    {"id":{"name":"sprChestClosed_PH","path":"sprites/sprChestClosed_PH/sprChestClosed_PH.yy",},},
-    {"id":{"name":"sprChestOpen_PH","path":"sprites/sprChestOpen_PH/sprChestOpen_PH.yy",},},
     {"id":{"name":"sprHealthFill","path":"sprites/sprHealthFill/sprHealthFill.yy",},},
     {"id":{"name":"sprHitBox","path":"sprites/sprHitBox/sprHitBox.yy",},},
     {"id":{"name":"sprPlayerDown","path":"sprites/sprPlayerDown/sprPlayerDown.yy",},},
