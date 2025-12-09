@@ -2,7 +2,8 @@ enum PlayerState {
 	idle,
 	moving,
 	dodging,
-	attacking
+	attacking,
+	dead
 }
 depth = -1
 

@@ -1,13 +1,17 @@
 function scrPlayerStateTransition(){
 	
-	if stamina_current > 5 and dodge and state != PlayerState.dodging{
+	if hp_current <=0 {
+		state = PlayerState.dead
+		room_goto(MainMenu)
+	
+	} else if stamina_current > 5 and dodge and state != PlayerState.dodging{
 		state = PlayerState.dodging
 		stamina_current -= 5
 		sprite_index = sprArray_PlayerDgd[dir]
 		image_index = 0
 		image_speed = 1
 		
-	}else if stamina_current > 3 and attack and state != PlayerState.attacking{
+	} else if stamina_current > 3 and attack and state != PlayerState.attacking{
 		state = PlayerState.attacking
 		stamina_current -= 3
 		image_index = 0

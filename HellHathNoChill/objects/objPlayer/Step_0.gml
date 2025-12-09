@@ -6,14 +6,15 @@ dodge = keyboard_check(ord("C"))
 attack = mouse_check_button_pressed(mb_left)
 
 
+// Temporary for testing room transitions on player death
+if keyboard_check_pressed(vk_space){hp_current -= 25}
+
+
 //Set direction and nomralize speed
 if (x_speed != 0 || y_speed != 0){
 	dir = point_direction(0, 0, x_speed, y_speed)
 }
-//move_x = lengthdir_x(move_speed, dir)
-//move_y = lengthdir_y(move_speed, dir)
-//if place_meeting(x + move_x, y, objWall){move_x = 0}
-//if place_meeting(x, y + move_y, objWall){move_y = 0}
+
 
 //State Assignment
 switch(state){
